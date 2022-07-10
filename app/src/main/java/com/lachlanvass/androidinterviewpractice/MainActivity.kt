@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import com.lachlanvass.androidinterviewpractice.presentation.ColorBox
 import com.lachlanvass.androidinterviewpractice.presentation.ImageCard
+import com.lachlanvass.androidinterviewpractice.presentation.ScrollingList
 import com.lachlanvass.androidinterviewpractice.presentation.TextFieldSnackBarShower
 import com.lachlanvass.androidinterviewpractice.ui.theme.AndroidInterviewPracticeTheme
 
@@ -26,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
 
-                    TextFieldSnackBarShower()
+                    ScrollingList()
                 }
             }
         }
