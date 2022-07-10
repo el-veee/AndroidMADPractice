@@ -11,7 +11,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun ColorBox() {
+fun ColorBox(
+) {
 
     val colors = listOf(Color.Red, Color.Yellow, Color.Green, Color.Cyan)
 
@@ -20,7 +21,6 @@ fun ColorBox() {
         .background(boxColor.value)
         .clickable {
 
-            boxColor.value = colors.random()
 
         })
 }
